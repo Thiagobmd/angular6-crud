@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build --extract-css && npm run apilocal",
+    "start": "ng build",
+    "build": "ng build --extract-css && gulp",
     "apilocal": "concurrently --kill-others \"gulp\" \"json-server --watch src/json/dados.json\"",
     "test": "ng test",
     "lint": "ng lint",
