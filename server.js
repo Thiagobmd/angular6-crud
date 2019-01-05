@@ -1,15 +1,16 @@
-var jsonServer = require("json-server");
-var server = jsonServer.create();
-var router = jsonServer.router("db.json");
-var middlewares = jsonServer.defaults();
+//Install express server
+const express = require('express');
+const path = require('path');
 
-server.use(middlewares);
+const app = express();
 
-// prepend all routes with '/api'
-// for example '/api/users'
-server.use("/", router);
+// Serve only the static files form the dist directory
+app.use(express.static('./dist/aplicacao-theos'));
 
-// start server
-server.listen(process.env.PORT || 3001, () => {
-  console.log("JSON Server is running");
+app.get('/*', function(req,res) {
+
+res.sendFile(path.join(__dirname,'/dist/aplicacao-theos/index.html'));
 });
+
+// Start the app by listening on the default Heroku port
+app.listen(process.env.PORT || 8080);
