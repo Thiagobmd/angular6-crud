@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",
+    "start": "ng serve",
     "build": "ng build --extract-css && npm run apilocal",
     "apilocal": "concurrently --kill-others \"gulp\" \"json-server --watch src/json/dados.json\"",
     "test": "ng test",
