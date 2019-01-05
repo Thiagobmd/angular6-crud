@@ -838,7 +838,7 @@ var ApiService = /** @class */ (function () {
         this.router = router;
         this.http = http;
         // URL DA MINHA API LOCALHOST
-        this.uri = 'http://localhost:3000/profissionais';
+        this.uri = 'https://crud-angular6-thiagobmd.herokuapp.com/profissionais';
     }
     // GET - SELECIONA LISTA DE PROFISSIONAIS CADASTRADOS
     ApiService.prototype.getProfissionais = function () {

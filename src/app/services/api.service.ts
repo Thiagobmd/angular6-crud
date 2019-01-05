@@ -10,7 +10,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class ApiService {
 
   // URL DA MINHA API LOCALHOST
-  uri = 'http://localhost:3000/profissionais';
+  uri = 'https://crud-angular6-thiagobmd.herokuapp.com/profissionais';
   errors: any;
 
   constructor(
