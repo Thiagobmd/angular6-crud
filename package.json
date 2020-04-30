@@ -41,7 +41,7 @@
     "gulp-minify-html": "^1.0.6",
     "gulp-uglify": "^3.0.0",
     "gulp-webserver": "^0.9.1",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "ng2-slim-loading-bar": "^4.0.0",
     "ngx-filter-pipe": "^2.1.0",
     "node-sass": "^4.9.0",
