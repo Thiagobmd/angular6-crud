@@ -31,7 +31,7 @@
     "body-parser": "^1.18.3",
     "bootstrap": "^4.1.1",
     "core-js": "^2.5.4",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "font-awesome": "^4.7.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
